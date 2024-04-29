@@ -3,6 +3,7 @@ import { AppComponent } from './app.component';
 import { BrowserModule } from '@angular/platform-browser';
 import { ReactiveFormsModule } from '@angular/forms';
 import { bootstrapApplication } from '@angular/platform-browser';
+import { HttpClientModule } from '@angular/common/http';
 
 
 
@@ -12,6 +13,7 @@ import { bootstrapApplication } from '@angular/platform-browser';
     imports: [
         BrowserModule,
         ReactiveFormsModule,
+        HttpClientModule
     ],
     providers: [],
     bootstrap: []
